@@ -14,8 +14,8 @@ on:
   push:
     branches:
       - master
-#    paths:
-#      - '.config'
+    paths:
+      - 'Nero2.config'
 #  schedule:
 #    - cron: 0 8 * * 5
   watch:
@@ -24,7 +24,7 @@ on:
 env:
   REPO_URL: https://github.com/Lienol/openwrt
   REPO_BRANCH: dev-19.07
-  CONFIG_FILE: .config
+  CONFIG_FILE: Nero2.config
   DIY_SH: diy.sh
   FREE_UP_DISK: false
   SSH_ACTIONS: false
