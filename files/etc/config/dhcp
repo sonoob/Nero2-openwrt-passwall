@@ -26,7 +26,7 @@ config dhcp 'lan'
 	option dhcpv6 'server'
 	option ra 'server'
 	option force '1'
-	list dhcp_option '6,192.168.100.254'
+	list dhcp_option '6,192.168.50.254'
 	option ra_management '1'
 
 config dhcp 'wan'
